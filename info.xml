@@ -1,26 +1,20 @@
-<plugin name="Detect Puffs">
+<plugin name="Flika plugin template">
 	<directory>
 		flika_plugin_template
 	</directory>
 	<version>
-		2017.03.20
+		2017.03.21
 	</version>
 	<author>
 		Kyle Ellefsen
 	</author>
-	<description>
-		Use this template to make your own Flika plugins!
-	</description>
 	<url>
 		https://github.com/flika-org/flika_plugin_template/archive/master.zip
 	</url>
 	<dependencies>
-		<dependency name='leastsqbound'></dependency>
-		<dependency name='matplotlib'></dependency>
+		<dependency name='numpy'></dependency>
 	</dependencies>
 	<menu_layout>
-		<action location="cloud_counter" function="count_clouds.gui">Count Clouds</action>
-		<action location="h_index_calculator.h_index_calc" function="h_index_calc">Calculate new h-index</action>
-		<action location="cloud_counter" function="launch_docs">Docs</action>
+		<action location="template_file" function="launch_docs">Docs</action>
 	</menu_layout>
 </plugin>
